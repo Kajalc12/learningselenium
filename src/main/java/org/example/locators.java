@@ -45,6 +45,6 @@ public class locators
 
 //        above one is called regular expression.
 
-//        driver.close();
+        driver.quit();
     }
 }

@@ -12,9 +12,12 @@ public class corejavabrushup1
         System.out.println(splittedstring[1].trim());
         for(int i=0;i< s.length();i++)
         {
+            if(s==" ")
               System.out.println(s.charAt(i));
+            System.out.println (s.length());
+            {
+
+            }
         }
-
-
     }
 }
