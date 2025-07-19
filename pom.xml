@@ -26,8 +26,12 @@
             <artifactId>testng</artifactId>
             <version>7.10.2</version>
         </dependency>
-
-
+<!--        Keep selenium-devtools updated to match your Chrome version (or downgrade Chrome if needed)-->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-devtools-v131</artifactId>
+            <version>4.27.0</version>
+        </dependency>
     </dependencies>
 
 </project>
