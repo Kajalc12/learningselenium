@@ -29,8 +29,13 @@
 <!--        Keep selenium-devtools updated to match your Chrome version (or downgrade Chrome if needed)-->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-devtools-v131</artifactId>
-            <version>4.27.0</version>
+            <artifactId>selenium-devtools-v138</artifactId>
+            <version>4.34.0</version> <!-- Match this with your Selenium version -->
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.14.0</version>
         </dependency>
     </dependencies>
 
