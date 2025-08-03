@@ -22,12 +22,10 @@ public class AutoSuggestive {
         for(WebElement option :options) {
 
             if (option.getText().equalsIgnoreCase("India")) {
-
                 option.click();
-
                 break;
             }
         }
-driver.quit();
+            driver.quit();
     }
 }

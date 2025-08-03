@@ -29,7 +29,7 @@
 <!--        Keep selenium-devtools updated to match your Chrome version (or downgrade Chrome if needed)-->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-devtools-v138</artifactId>
+            <artifactId>selenium-devtools-v137</artifactId>
             <version>4.34.0</version> <!-- Match this with your Selenium version -->
         </dependency>
         <dependency>
@@ -38,5 +38,23 @@
             <version>2.14.0</version>
         </dependency>
     </dependencies>
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <version>3.11.0</version>-->
+<!--                <configuration>-->
+<!--                    <source>20</source>-->
+<!--                    <target>20</target>-->
+<!--                    <compilerArgs>-->
+<!--                        <arg>&#45;&#45;module-path</arg>-->
+<!--                        &lt;!&ndash;suppress UnresolvedMavenProperty &ndash;&gt;-->
+<!--                        <arg>${JAVA_HOME}/jmods</arg> &lt;!&ndash; Pointing to system modules &ndash;&gt;-->
+<!--                    </compilerArgs>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 
 </project>
